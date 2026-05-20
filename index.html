@@ -2,55 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/truelinefield/favicon.svg" />
+    <link rel="icon" type="image/png" href="/truelinefield/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <title>TrueLineField</title>
     <script type="module" crossorigin src="/truelinefield/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/truelinefield/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/truelinefield/assets/styles-DwJJHdWE.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container">
+        <div class="home-wrapper">
+            <h1 class="home-title">We build worlds<br/><span class="span">
+            worth fighting for</span></h1>
+            <p class="home-text">TrueLineField is an indie studio crafting strategy and battlefield games with soul. Small team. Big maps. No filler.</p>
+            <div class="home-btn-wrapper">
+                <a class="home-btn-one" href="#titles">
+                    <p>See our games</p>
+                </a>
+                <a class="home-btn-two" href="#features">
+                    <p>Follow the dev log</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
