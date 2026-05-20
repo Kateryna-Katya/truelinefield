@@ -1,0 +1,95 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 840px;
+}
+.home-wrapper{
+margin-top: 430px;
+}
+.home-title{
+font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    letter-spacing: -0.07em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.span{
+color: #b03c15;
+}
+.home-text{
+    margin-top: 20px;
+}
+.home-btn-wrapper{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 22px;
+}
+.home-btn-one{
+border-radius: 20px;
+    padding: 15px 32px;
+    width: 176px;
+    height: 49px;
+background: #b03c15;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+.home-btn-two{
+border: 1px solid #b03c15;
+    border-radius: 20px;
+    padding: 16px 19px;
+    width: 163px;
+    height: 49px;
+background: rgba(0, 0, 0, 0);
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #b03c15;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+    height: 900px;
+}
+.home-wrapper{
+margin-top: 230px;
+width: 852px;
+}
+.home-title{
+font-size: 116px;
+    line-height: 0.78621;
+    letter-spacing: -0.02em;
+}
+.home-text{
+    width: 576px;
+    margin-top: 27px;
+}
+.home-btn-wrapper{
+    margin-top: 50px;
+    justify-content: start;
+}
+.home-btn-one{
+width: 236px;
+    height: 54px;
+    font-size: 16px;
+}
+.home-btn-two{
+padding: 16px 32px;
+    width: 270px;
+    height: 56px;
+    font-size: 16px;
+}    
+}
