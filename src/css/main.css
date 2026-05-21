@@ -93,3 +93,130 @@ padding: 16px 32px;
     font-size: 16px;
 }    
 }
+/* Who we are */
+.who-container{
+    padding-top: 62px;
+}
+.who-wrapper{
+    background-image: url("/img/who/mob.png"), linear-gradient(134deg, rgba(55, 55, 59, 0.6) 0%, rgba(56, 66, 74, 0.6) 47.6%, rgba(55, 60, 66, 0.6) 100%);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    border: 1px solid #5b636d;
+        border-radius: 20px;
+        width: 358px;
+        height: 546px;
+margin-left: auto;
+margin-right: auto;
+padding: 12px 14px 11px;
+}
+.who-subtitle{
+    width: 284px;
+    margin-bottom: 16px;
+}
+.line-one{
+    width: 73px;
+    height: 4px;
+    background-color: #b03c15;
+    margin-bottom: 20px;
+}
+.who-text{
+    width: 223px;
+}
+.who-list-wrapper{
+    margin-top: 23px;
+    width: 331px;
+    height: 275px;
+    position: relative;
+    padding: 43px 5px 33px;
+}
+.quote{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+}
+.quote-one{
+    top: 0;
+    left: 0;
+}
+.who-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.who-item{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #b03c15;
+}
+.quote-two{
+    bottom: 0;
+    right: 0;
+}
+.who-item:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.who-item img{
+    width: 35px;
+    height: 35px;
+}
+@media only screen and (min-width: 1440px) {
+.who-container {
+        padding-top: 100px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
+
+    .who-wrapper {
+        background-image: url("/img/who/desk.png"), linear-gradient(134deg, rgba(55, 55, 59, 0.6) 0%, rgba(56, 66, 74, 0.6) 47.6%, rgba(55, 60, 66, 0.6) 100%);
+width: 1355px;
+    height: 530px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 46px 29px;
+        display: flex;
+        align-items: start;
+        gap: 32px;
+    }
+.who-text-wrapper{
+width: 635px;
+}
+    .who-subtitle {
+width: 635px;
+        margin-bottom: 169px;
+    }
+
+    .line-one {
+        width: 125px;
+    }
+
+    .who-text {
+        width: 570px;
+    }
+
+    .who-list-wrapper {
+margin-top: 0;
+width: 627px;
+height: 452px;
+        position: relative;
+        padding: 101px 0 114px 57px;
+    }
+
+    .quote {
+        width: 52px;
+        height: 52px;
+        position: absolute;
+    }
+
+    .who-item {
+        gap: 28px;
+    }
+
+    .who-item img {
+        width: 46px;
+        height: 46px;
+    }
+}

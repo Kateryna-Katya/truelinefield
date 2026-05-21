@@ -25,4 +25,14 @@ h3{
 font-size: 18px;
   line-height: 1.625;
   }
+  h2{
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+  h3{
+font-size: 56px;
+  line-height: 1.14286;
+  letter-spacing: -0.04em;
+margin-bottom: 16px;
+  }
 }
