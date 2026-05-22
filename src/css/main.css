@@ -463,21 +463,25 @@ width: 29px !important;
     margin-right: auto;
 }
 
-.titles-pagination {
+.titles-pagination,
+.lines-pagination {
     display: flex;
     align-items: center;
     gap: 4px;
     width: 50px !important;
+
 }
 
-.titles-pagination .swiper-pagination-bullet {
+.titles-pagination .swiper-pagination-bullet,
+.lines-pagination .swiper-pagination-bullet {
     width: 4px;
     height: 4px;
     background: rgba(255, 255, 255, 0.6);
     opacity: 1;
 }
 
-.titles-pagination .swiper-pagination-bullet-active {
+.titles-pagination .swiper-pagination-bullet-active,
+.lines-pagination .swiper-pagination-bullet-active {
     background: #fff;
     width: 6px;
     height: 6px;
@@ -518,5 +522,86 @@ font-size: 14px;
 .titles-slide-link {
     margin-top: 16px;
     margin-left: 24px;
+}
+}
+/* Behind the lines */
+.lines-title{
+    text-align: center;
+}
+.lines-subtitle{
+    text-align: center;
+}
+.lines-container{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.lines-swiper .swiper-slide{
+    border: 1px solid rgba(107, 114, 128, 0.2);
+        padding: 21px 18px;
+        width: 264px;
+        height: 247px;
+background: #0f1419;
+}
+.lines-swiper-title{
+font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 27px;
+}
+.lines-swiper-red{
+font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.66667;
+    color: #b03c15;
+    margin-bottom: 16px;
+}
+.lines-link{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+        padding: 15px;
+        width: 173px;
+        height: 39px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #b03c15;
+font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71429;
+    text-align: center;
+    color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+.lines-subtitle{
+margin-bottom: 50px;
+}
+.lines-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 20px;
+}
+.lines-swiper .swiper-slide{
+width: 413px;
+    height: 267px;
+    padding: 20px 22px;
+}
+.lines-swiper-title{
+font-size: 24px;
+}
+.lines-swiper-text{
+font-size: 14px;
+line-height: 1.625;
+}
+.lines-link{
+    margin-top: 30px;
+padding: 15px 32px;
+    width: 236px;
+    height: 54px;
+font-size: 16px;
 }
 }
